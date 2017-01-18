@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamTrainKolkata.GridEx" BackgroundColor="Gray">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*" />
+      <RowDefinition Height=".1*" />
+      <RowDefinition Height=".1*" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="10" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="10" />
+    </Grid.ColumnDefinitions>
+    <Label Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Center" Grid.ColumnSpan="4" Text="Login Page" TextColor="Blue" FontSize="Large" />
+    <Label Grid.Row="1" Grid.Column="1" HorizontalTextAlignment="Center" Text="User Name" TextColor="Blue" FontSize="Large" />
+    <Entry Grid.Row="1" Grid.Column="2" Placeholder="User Name" TextColor="Black" />
+    <Label Grid.Row="2" Grid.Column="1" HorizontalTextAlignment="Center" Text="Password" TextColor="Blue" FontSize="Large" />
+    <Entry Grid.Row="2" Grid.Column="2" Placeholder="Password" TextColor="Black" />
+
+  </Grid>
+</ContentPage>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Loc="clr-namespace:XamTrainKolkata"
+             x:Class="XamTrainKolkata.FrameEx">
+  <ScrollView>
+    <StackLayout BackgroundColor="White" Spacing = "0"  >
+      <Loc:FrameControl HeightRequest="250" />
+      <Frame BackgroundColor="White"
+           OutlineColor="White"
+           Padding="5">
+        <Frame BackgroundColor="#F0F0F0"
+             OutlineColor="Black"
+             HasShadow="False"
+             Padding="0,0,5,0">
+          <!-- contents -->
+          <StackLayout VerticalOptions="CenterAndExpand" Padding="50">
+            <Entry  Placeholder ="Login Email" HorizontalOptions="FillAndExpand" />
+            <Entry Placeholder ="Password"  HorizontalOptions="FillAndExpand" />
+          </StackLayout>
+          <!-- /contents -->
+        </Frame>
+      </Frame>
+      <StackLayout Orientation="Horizontal">
+        <Button Text ="Log In" BackgroundColor="#77d065" />
+        <Button Text ="Sign Up" BackgroundColor="#77d065" />
+      </StackLayout>
+    </StackLayout>
+  </ScrollView>
+    
+</ContentPage>

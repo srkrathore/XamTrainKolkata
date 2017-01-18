@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamTrainKolkata.FrameControl">
+  <ContentView.Content>
+    <Frame BackgroundColor="White"
+           OutlineColor="White"
+           Padding="5">
+      <Frame BackgroundColor="#F0F0F0"
+           OutlineColor="Black"
+           HasShadow="False"
+           Padding="0,0,5,0">
+        <!-- contents -->
+        <StackLayout VerticalOptions="CenterAndExpand" Padding="50">
+          <Label Text="Welcome" HorizontalTextAlignment="Center" FontSize="Large" />
+          <Label Text="to" HorizontalTextAlignment="Center" FontSize="Large" />
+          <Label Text="Xamarin Forms Training" HorizontalTextAlignment="Center" FontSize="Large" />
+        </StackLayout>
+        <!-- /contents -->
+      </Frame>
+    </Frame>
+  </ContentView.Content>
+</ContentView>

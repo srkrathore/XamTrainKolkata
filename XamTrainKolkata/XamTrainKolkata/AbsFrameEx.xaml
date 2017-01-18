@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamTrainKolkata.AbsFrameEx">
+  <AbsoluteLayout>
+    <BoxView Color="Blue" AbsoluteLayout.LayoutBounds="25,25,.85,.92" AbsoluteLayout.LayoutFlags="WidthProportional,HeightProportional"  />
+    <BoxView Color="White" AbsoluteLayout.LayoutBounds="50,50,.72,.85" AbsoluteLayout.LayoutFlags="WidthProportional,HeightProportional" />
+  </AbsoluteLayout>
+</ContentPage>
